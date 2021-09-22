@@ -1,0 +1,138 @@
+p {
+  color: #443c77;
+  font-family: Arial, Verdane, Helvetica, sans-serif;
+  font-size: 14px;
+  text-indent: 35px;
+  line-height: 1.5;
+}
+
+.lists {
+   color: #696969;
+}
+
+#header {
+   color: #1a5db6;
+   font-family: Arial, Verdane, Helvetica, sans-serif;
+   font-size: 30px;
+   text-align: center;
+}
+
+h2 {
+	 font-family: Arial, Verdane, Helvetica, sans-serif;
+	 font-size: 24px;
+	 text-align: center;
+}
+
+p span {
+  color: #d44a4a;
+}
+
+p span b {
+	color: green;
+}
+
+p b {
+	font-size: 60px;
+	color: blue;
+}
+
+h2,h3 {
+  color: #243f7a;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+.italic-text {
+	font-style: italic;
+}
+
+body {
+  background:#ffffff;
+  background-image: url(https://www.crushpixel.com/big-static10/preview4/lots-strawberries-arranged-background-511453.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed
+}
+
+#content {
+    width: 700px;
+    border: 1px solid #e5e7e7;
+    padding: 30px 40px;
+    margin: 20px auto;
+    background: #fffdd0;  
+}
+
+table {
+  padding: auto;
+  border:red;
+  border-collapse: collapse;
+  margin: 20px auto;
+
+}
+
+td, th {
+  border: solid 3px #ccc;
+  
+}
+
+.table_even tr:nth-child(even),
+table.table_even tr:nth-child(1),
+table.table_even tr:nth-child(2){
+	background: #696969;
+	color: white;
+}
+
+.table_even tr:hover {
+  background: #1a5db6;
+  color: #fff;
+  align-content: center;
+}
+
+.scroll-table-body {
+	height: 300px;
+	overflow-x: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
+
+}
+.scroll-table table {
+	width:100%;
+	table-layout: fixed;
+	border: none;
+}
+.scroll-table thead th {
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	padding: 10px 15px;
+	background: #d8d8d8;
+	font-size: 14px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.scroll-table tbody td {
+	text-align: center;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.scroll-table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+ 
+
+::-webkit-scrollbar {
+	width: 6px;
+} 
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
